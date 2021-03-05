@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Pixelated Dreams</h1>
+      <h2 class="subtitle">(16-bit nostalgia)</h2>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="under-construction.html">Games</a>
+      <a href="under-construction.html">Art</a>
+      <a href="under-construction.html">Music</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+
+    <main class="main-contact">
+      <form name="contact" method="post" data-netlify="true">
+        <h2>Contact Me</h2>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" />
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" name="age" size="30" />
+        </div>
+        <div>
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" value="male" />Male
+          <input type="radio" name="gender" value="female" />Female
+        </div>
+        <div>
+          <label for="checkbox">Favorite video game console:</label>
+          <input type="checkbox" name="NES" />NES
+          <input type="checkbox" name="SNES" />SNES
+          <input type="checkbox" name="PSX" />PSX
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea name="message" rows="7" cols="30"></textarea>
+        </div>
+        <div>
+          <label for="color">Favorite color:</label>
+          <input type="color" />
+        </div>
+        <div>
+          <label for="file">Upload file:</label>
+          <input type="file" />
+        </div>
+        <div>
+          <label for="url">Your website:</label>
+          <input type="url" />
+        </div>
+        <div>
+          <input type="reset" />
+          <input type="submit" name="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
